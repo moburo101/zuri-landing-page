@@ -9,6 +9,10 @@ body{
     background-color: #fff;
 }
 
+.text-center{
+    text-align: center !important;
+}
+
 .hero-container{
     background-image: url(./image/hero-bg.svg);
     background-size: cover;
@@ -85,5 +89,23 @@ body{
 .btn-white:hover{
     background-color: #E7332B;
     color: white;
+}
+
+.programs h3{
+    font-size: 14px;
+    line-height: 24px;
+    color: #E7332B;
+    margin-top: 141px;
+    font-weight: 500;
+    margin-top: 141px;
+}
+
+.slogan{
+    font-size: 24px;
+    line-height: 40px;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+    letter-spacing: 0.5px;
 }
 
