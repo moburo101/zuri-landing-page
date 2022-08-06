@@ -8,6 +8,7 @@ body {
   background-color: #fff;
 }
 
+/* utility */
 @font-face {
   font-family: Averta;
   src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
@@ -23,25 +24,40 @@ a {
   text-decoration: none;
 }
 
+a:hover{
+    color: #e7332b;
+}
+
 .container-fluid {
-  max-width: 1440px !important;
+    max-width: 1440px !important;
 }
 
 .my-container {
-  max-width: 1240px !important;
+    max-width: 1240px !important;
 }
 
 .center-image {
-  margin: auto;
-  display: flex;
-  padding-top: 69px;
-  margin-bottom: 69px;
+    margin: auto;
+    display: flex;
+    padding-top: 69px;
+    margin-bottom: 69px;
 }
 
 .center-image img {
-  margin: auto;
+    margin: auto;
 }
 
+.container-fluid {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-left {
+  text-align: left !important;
+}
+/* end of utility */
+
+/* hero section */
 .hero-container {
   height: 800px;
   background-image: url("../image/hero-bg.svg");
@@ -105,7 +121,9 @@ a {
   background-color: #e7332b;
   color: #fff;
 }
+/* end of hero section */
 
+/* programs section */
 section.programs {
   background-color: #fff;
   overflow: hidden;
@@ -131,11 +149,6 @@ section.programs {
   margin-bottom: 64px;
 }
 
-.container-fluid {
-  margin: 0 auto;
-  text-align: center;
-}
-
 .program-card {
   width: 100%;
   background-color: #fffafa;
@@ -146,10 +159,6 @@ section.programs {
 .program-card-zed {
   position: relative;
   z-index: 1;
-}
-
-.text-left {
-  text-align: left !important;
 }
 
 img.card-bg-svg-1 {
@@ -185,7 +194,9 @@ img.card-bg-svg-2 {
   color: #e7332b;
   opacity: 0.9;
 }
+/* end of program section */
 
+/* footer */
 .footer {
   margin-top: 215px;
 }
@@ -203,20 +214,6 @@ img.card-bg-svg-2 {
   font-weight: bold;
   line-height: 24px;
   color: #514949;
-}
-
-.quick-links {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.quick-links a {
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 20px;
-  color: #514949;
-  opacity: 0.9;
 }
 
 .contact p,
@@ -245,6 +242,7 @@ footer hr {
   color: #514949;
   padding-bottom: 97px;
 }
+/* end of footer */
 
 @media (max-width: 768px) {
   .hero-container {
